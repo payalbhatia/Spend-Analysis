@@ -17,7 +17,7 @@ Further ,  it has # imbalanced distribution. This means out of 7 categories , 2 
 This was concerning.Part of the data in multiple languages. Though data was not that huge initially , so gave a shot to Naive Bayes. 
 Then , for KNN it is a lazy algorithm.It was not giving a consistent result which was not helping. So , the random forest and stacked modelling came to rescue. Also, tried using SMOTE and other variations with data to check what algorithm works best.
 
-# the accuracy metric :
+# Accuracy metric :
 Accuracy metric was not appropriate to our problem.Used confusion metrics. There also ,  focussed more on False positives for the categories. Also , the ROC-AUC score , which is independent of the threshold set for classification because it only considers the rank of each prediction and not its absolute value.
 
 #  Prepare the data for this problem : 
